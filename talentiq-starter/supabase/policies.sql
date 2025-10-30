@@ -1,0 +1,4 @@
+-- Placeholder to expand RLS with roles (agent/actor) when auth is added.
+-- Example pattern:
+-- create table profiles (id uuid primary key, role text);
+-- then use auth.uid() = profiles.id and role checks for policies.
